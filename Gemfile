@@ -7,8 +7,9 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-  gem 'sqlite3'
+ gem 'sqlite3'
 end
+
 group :production do
   gem 'pg'
 end
@@ -29,10 +30,13 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
-gem "paperclip"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+gem 'paperclip'
+
 gem 'sorcery'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
